@@ -19,7 +19,7 @@ export default class extends Component{
                     <ul className="nav-navbar align-item-center">
                         <li className="nav-item mi-5">
                             <Link to="/" className="nav-link">
-                                products
+                                Products
                             </Link>
                         </li>
                     
