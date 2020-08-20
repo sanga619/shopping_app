@@ -2,14 +2,17 @@ import React, { Component } from 'react';
 import Product from './Products';
 
 export default class ProductsList extends Component {
+    state={
+        product:[]
+    }
     render() {
+
         return (
             <div>
-                <h3>
-                    Welcome from ProducrtList
-                    <Product/>
-                </h3>
+            <Product/>
+
             </div>
+                
         )
     }
 }

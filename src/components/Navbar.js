@@ -6,20 +6,30 @@ import {ButtonCountainer} from "./Button";
 export default class extends Component{
      render(){
          return (
-             <NavWrapper className="navbar navbar-expand-sm  navbar-dark px-sm-5">
-                  {/*<nav className="navbar navbar-expand-sm navbar-dark px-sm-5">
-                    https://www.iconfinder.com/icons/1243689/call_phone_icon
-                    Creative Commons (Attribution 3.0 Unported);
-                    https://www.iconfinder.com/Makoto_msk */}
-                    <Link to='/'>
-                        <img src={logo} alt="store" className="navabr-brand">
-
-                        </img>
+             <NavWrapper className="navbar navbar-expand-sm fixed-top navbar-dark bg-dark px-sm-5">
+                  
+                    <Link to='/' className="text-center navbar-brand">
+                       <strong> MyApp</strong>
                     </Link>
-                    <ul className="nav-navbar align-item-center">
-                        <li className="nav-item mi-5">
+                    <ul className="navbar-nav align-item-center mx-5">
+                        <li className="nav-item mx-2">
                             <Link to="/" className="nav-link">
-                                Products
+                                Home
+                            </Link>
+                        </li>
+                        <li className="nav-item  mx-2">
+                            <Link to="/" className="nav-link">
+                                Product
+                            </Link>
+                        </li>
+                        <li className="nav-item mx-2 ">
+                            <Link to="/" className="nav-link">
+                                About us
+                            </Link>
+                        </li>
+                        <li className="nav-item mx-2">
+                            <Link to="/" className="nav-link">
+                                Contact us
                             </Link>
                         </li>
                     

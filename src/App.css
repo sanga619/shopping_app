@@ -23,3 +23,7 @@ body{
 .text-bright{
     color:var(--Lightblye)
 }
+nav.navbar { position: static; }
+.card{
+    margin:40px;
+}
