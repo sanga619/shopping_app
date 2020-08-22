@@ -10,6 +10,7 @@ import Cart from './components/Cart';
 function App() {
   return (
     <React.Fragment>
+      
       <Navbar/>
     <Switch>
       <Route exact path="/" component={ProductList}/>

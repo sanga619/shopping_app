@@ -23,7 +23,42 @@ body{
 .text-bright{
     color:var(--Lightblye)
 }
-nav.navbar { position: static; }
+nav.navbar { position: static; 
+            margin:0;             
+}
 .card{
     margin:40px;
+}
+.btn-secondary {
+
+  /* color: #fff; */
+    /* background-color: #6c757d; */
+    border-color: #6c757d;}
+
+/*card*/
+.card{
+    border-color:transparent;
+    transition:all 0.3s linear;
+}
+/*   card footer*/
+.card-footer{
+    background:transparent;
+    border-top:transparent;
+    transition:all 0.4s linear;
+
+}
+
+.card:hover{
+    border:0.04rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 5px opx rgba(0, 0, 0, 0.2);
+}
+.card-footer:hover{
+    background:rgba(247, 247, 247);
+}
+.img-container{
+    position: relative;
+    overflow:hidden;
+}
+.img-container:hover .card-img-top{
+    transform:scale(1.2);
 }
